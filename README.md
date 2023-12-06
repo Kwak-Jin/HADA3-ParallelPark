@@ -4,3 +4,5 @@
 **Author/Student ID: Jin Kwak/21900031**   
 **Created: 2022/08/-**   
 **Modified:2023/10/-**   
+
+Check [Documentation](ParaPark_Documentation.md) for methods description
