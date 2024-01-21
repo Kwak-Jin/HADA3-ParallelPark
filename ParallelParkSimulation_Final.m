@@ -62,9 +62,9 @@ legend('Origin 1','Origin 2','MidPoint','Parking Destination','ERP POS','Curvatu
 %%
 clear all; clc; close all;
 geobasemap('satellite'); hold on;
-FUCK =readmatrix("ParaparkTrajectory.csv");
-for i= 1:length(FUCK(:,1))
-    geoplot(FUCK(i,1),FUCK(i,2),'rp');
+ParaTrajectory =readmatrix("ParaparkTrajectory.csv");
+for i= 1:length(ParaTrajectory(:,1))
+    geoplot(ParaTrajectory(i,1),ParaTrajectory(i,2),'rp');
     drawnow;
 end
 %%
